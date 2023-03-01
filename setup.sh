@@ -69,26 +69,26 @@ echo -e "$green         Installing AutoScript Premium       $NC"
 echo -e "$green   =============================================$NC"
 sleep 2
 #install Domain
-#wget https://geovpn.github.io/free/install/cf.sh && chmod +x cf.sh && ./cf.sh
+#wget https://miftah06.github.io/free-main/install/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
-wget https://geovpn.github.io/free/install/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://miftah06.github.io/free-main/install/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install ssh ovpn
-wget https://geovpn.github.io/free/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-wget https://geovpn.github.io/free/install/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://miftah06.github.io/free-main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://miftah06.github.io/free-main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
-wget https://geovpn.github.io/free/install/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget https://geovpn.github.io/free/install/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://miftah06.github.io/free-main/install/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://miftah06.github.io/free-main/install/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #installwg
-wget https://geovpn.github.io/free/install/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://miftah06.github.io/free-main/install/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install L2TP
-wget https://geovpn.github.io/free/install/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://geovpn.github.io/free/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://miftah06.github.io/free-main/install/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://miftah06.github.io/free-main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Install Neofetch
 #install edu
-wget https://geovpn.github.io/free/install/cdn.sh && chmod +x cdn.sh && screen -S cdn.sh ./cdn.sh
+wget https://miftah06.github.io/free-main/install/cdn.sh && chmod +x cdn.sh && screen -S cdn.sh ./cdn.sh
 #install ohp
-wget https://geovpn.github.io/free/install/ohp-db.sh && chmod +x ohp-db.sh && screen -S ohp-db.sh ./ohp-db.sh
-wget https://geovpn.github.io/free/ohp-ovpn.sh && chmod +x ohp-ovpn.sh && screen -S ohp-ovpn.sh ./ohp-ovpn.sh
+wget https://miftah06.github.io/free-main/install/ohp-db.sh && chmod +x ohp-db.sh && screen -S ohp-db.sh ./ohp-db.sh
+wget https://miftah06.github.io/free-main/ohp-ovpn.sh && chmod +x ohp-ovpn.sh && screen -S ohp-ovpn.sh ./ohp-ovpn.sh
 #install lolcat
 wget https://raw.githubusercontect.com/project-vps/ngopi/main/install/lolcat.sh && chmod +x lolcat.sh && ./lolcat.sh
 
@@ -120,7 +120,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://geovpn.github.io/free/set.sh"
+wget -O /etc/set.sh "https://miftah06.github.io/free-main/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
