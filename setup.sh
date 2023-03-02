@@ -69,7 +69,7 @@ echo -e "$green         Installing AutoScript Premium       $NC"
 echo -e "$green   =============================================$NC"
 sleep 2
 #install Domain
-wget https://raw.githubusercontent.com/miftah06/free-main/main/install/cf.sh && chmod +x cf.sh && ./cf.sh
+#wget https://raw.githubusercontent.com/miftah06/free-main/main/install/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
 wget https://raw.githubusercontent.com/miftah06/free-main/main/install/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install ssh ovpn
